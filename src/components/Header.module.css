@@ -1,0 +1,20 @@
+.header { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-700);
+  padding: 5rem 0;
+  gap: 0.75rem;
+}
+
+.header img {
+  height: 2.25rem;
+}
+
+.header span {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(to right, var(--blue) 40%, var(--purple-dark) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
